@@ -23,4 +23,5 @@ public class MedicoEntity extends BaseEntity {
     @PodamExclude
     @ManyToMany(fetch = FetchType.LAZY)
     private List<EspecialidadEntity> especialidades = new ArrayList<>();
+
 }
